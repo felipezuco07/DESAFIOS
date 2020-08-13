@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio1</title>
+<style type="text/css">
+  body { background-color:#111; }
+  p { color:#fff; }
+</style>
+<script type="text/javascript">
+ var numero= 19; 
+window.alert("ver se " + numero + " é menor que 20");
+ if(numero > 20){
+     window.alert(numero + " é maior que 20");
+}else{
+   window.alert(numero + " é menor que 20"); 
+}
+
+</script>
+</head>
+ <body>
+  <p> Entrar com um número e imprimi-lo caso seja maior que 20:</p>
+ </body>
+</html>
