@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio4</title>
+<style type="text/css">
+  body { background-color:#255; }
+  p { color:#000;text-align: center; }
+</style>
+ <script type="text/javascript">
+    var num1 = 10;
+    var num2 = 8;
+    
+    var r = (num1 + num2)
+     if (r > 20) {
+         alert (r + 8);
+     }else{
+          alert(r - 5);
+     }
+ </script>
+
+</head>
+ <body>
+  <p>Construir um algoritmo que leia dois números e efetue a adição. Caso o valor somado seja maior que 20, este deverá ser apresentado somando-se a ele mais 8;
+caso o valor somado seja menor ou igual a 20, este deverá ser apresentado subtraindo-se 5. </p>
+<hr>
+
+ </body>
+</html>
