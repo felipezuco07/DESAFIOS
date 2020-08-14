@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio9</title>
+<style type="text/css">
+  body { background-color:#255; }
+  p { color:#000;text-align: center; }
+</style>
+ <script type="text/javascript">
+   var estado = prompt("entr com a sigla do estado emm aiúsculo(de preferencia sp, mg, rj): ");
+   switch (estado)
+   { 
+       case "SP":
+          alert("Paulista");
+          break;
+       case "RJ":
+          alert("Carioca");
+          break
+       case "MG":
+          alert("Mineiro");
+          break
+       default:
+          alert("Outros Estados");
+   }
+   
+ </script>
+
+</head>
+ <body>
+  <p>Entrar com a sigla do estado de uma pessoa e imprimir uma das mensagens: • carioca • paulista • mineiro • outros estados
+</p>
+<hr>
+
+ </body>
+</html>
