@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio2</title>
+<style type="text/css">
+  body { background-color:#222; }
+  p { color:#277; }
+</style>
+</head>
+ <body>
+  <p> Entrar com 5 números e imprimi-los em ordem decrescente (suponha números diferentes).</p>
+
+  <script type="text/javascript">
+    var texto= "";
+    for(var i=5; i>0; i--)
+    {
+     texto += i + ",";
+     
+    }
+      alert(texto);
+    
+
+</script>
+ </body>
+</html>
