@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio3</title>
+<style type="text/css">
+  body { background-color:#255; }
+  p { color:#000;text-align: center; }
+</style>
+ <script type="text/javascript">
+    var num1 = 12;
+    var num2 = 13;
+    
+    var r = (num1 + num2)
+     if (r > 10) {
+         alert (r + 8);
+     }else{
+          alert(" número menor que 10 ");
+     }
+ </script>
+
+</head>
+ <body>
+  <p> Construir um algoritmo que leia dois valores numéricos inteiros e efetue a adição; caso o resultado seja maior que 10, apresentá-lo.
+</p>
+<hr>
+
+ </body>
+</html>
