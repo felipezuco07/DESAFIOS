@@ -3,12 +3,18 @@
 <head>
   <title>Desafio4</title>
 <style type="text/css">
-  body { background-color:#255; }
-  p { color:#000;text-align: center; }
+   body { background-color:#111; }
+   p { color:#fff;text-align: center;font-size:30px; }
 </style>
- <script type="text/javascript">
-    var num1 = 10;
-    var num2 = 8;
+ <script type="text/javascript"> 
+    alert("Digite dois números para que possamos efetuar a adição e exibi-lo.");
+    alert("Caso o resultado seja maior que 20, iremos apresentar o resultado somando a ele mais 8; caso seja menor, iremos apresenta-lo subtraindo 5 do resultado.");
+    var num1 = Number(prompt("Digite o primeiro valor e de ENTER: "));;
+    var num2 = Number(prompt("Digite o segundo valor e de ENTER: "));
+
+    alert("verificando o valores...");
+    alert("efetuando a soma...");
+    
     
     var r = (num1 + num2)
      if (r > 20) {
