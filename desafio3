@@ -3,16 +3,19 @@
 <head>
   <title>Desafio3</title>
 <style type="text/css">
-  body { background-color:#255; }
-  p { color:#000;text-align: center; }
+  body { background-color:#111; }
+  p { color:#fff;text-align: center;font-size: 30px; }
 </style>
  <script type="text/javascript">
-    var num1 = 12;
-    var num2 = 13;
+  alert("Digite dois valores numéricos inteiros e efetuaremos a adição; caso o resultado seja maior que 10, apresentá-lo.");
+    var num1 = Number (prompt("Digite o primeiro valor: "));
+    var num2 = Number (prompt("Digite o segundo valor: "));;
     
     var r = (num1 + num2)
-     if (r > 10) {
-         alert (r + 8);
+  
+    alert("Efetuando a adição...");
+     if (r >= 10) {
+         alert (r);
      }else{
           alert(" número menor que 10 ");
      }
