@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio8</title>
+<style type="text/css">
+   body { background-color:#111; }
+   p { color:#fff;text-align: center;font-size:30px; }
+</style>
+ <script type="text/javascript">
+   alert("Digite dois números, depois um incremento.Nós irmeos calcular os números naturais que estão no intervalo desses dois números com o incremento.");
+   alert("exempo->Número inicial:0/Número limite:20/Incremento:5//resultado: 0, 5, 10, 15, 20");
+    var val1 = Number(prompt("Digite o primeiro número: "));
+    var val2 = Number(prompt("Agora, digite o valor limite: ")); 
+    var val3 = Number(prompt("Digite o incremento: "));
+    
+
+     var resul= "";
+     for(var i=val1 ; i<=(val2) ; i++){
+         if(i%(val3)===0){
+                  if(i===(val2)){
+                       resul += i;
+                  }else{
+                        resul +=i +",";
+                  }
+    
+         }
+     }
+    
+     alert(resul);
+     alert(resul);
+     alert(resul);
+
+ </script>
+
+</head>
+ <body>
+  <p>Criar um algoritmo que leia um número que será o limite superior de um intervalo e o incremento (incr). 
+Imprimir todos os números naturais no intervalo de O até esse número. Suponha que os dois números lidos são maiores do que zero. 
+Limite superior: 20 Incremento: 5 Saída: O 5 1O 15 20.
+</p>
+<hr>
+
+ </body>
+</html>
