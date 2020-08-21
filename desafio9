@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio9</title>
+<style type="text/css">
+  body { background-color:#111; }
+   p { color:#fff;text-align: center;font-size:30px; }
+</style>
+ <script type="text/javascript">
+   alert("Te daremos opções de siglas de estados, digite alguma delas para que possamos dizer se você é paulista, mineiro, etc..");
+   var estado = prompt("Digite a Sigla do estado em Maiúsculo(de preferencia SP, MG, RJ): ");
+
+   alert("conferindo Sigla...");
+   
+   switch (estado)
+   { 
+       case "SP":
+          alert("Paulista");
+          alert("Paulista");
+          break;
+       case "RJ":
+          alert("Carioca");
+          alert("Carioca");
+          break
+       case "MG":
+          alert("Mineiro");
+          alert("Mineiro");
+          break
+       default:
+          alert("Outros Estados");
+          alert("Outros Estados");
+   }
+   
+ </script>
+
+</head>
+ <body>
+  <p>Entrar com a sigla do estado de uma pessoa e imprimir uma das mensagens: • carioca • paulista • mineiro • outros estados
+</p>
+<hr>
+
+ </body>
+</html>
