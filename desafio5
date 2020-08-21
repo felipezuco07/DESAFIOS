@@ -3,15 +3,22 @@
 <head>
   <title>Desafio5</title>
 <style type="text/css">
-  body { background-color:#255; }
-  p { color:#000;text-align: center; }
+   body { background-color:#111; }
+   p { color:#fff;text-align: center;font-size:30px; }
 </style>
  <script type="text/javascript">
-    var numero = 25;
+   alert("Digite o número e diremos se ele é ou não divisível por 5");
+    var numero = Number(prompt("Digite um número e informaremos se ele é divisível por 5 ou não.")); 
     
+     alert("verificando...");
      if((numero % 5) == 0) {
-         alert("divisivel por 5");
+         alert( numero + " é divisivel por 5");
+         alert( numero + " é divisivel por 5");
      }
+     else{
+     window.alert( numero + " não é divisível por 5");
+     window.alert( numero + " não é divisível por 5");
+ }
     
  </script>
 
