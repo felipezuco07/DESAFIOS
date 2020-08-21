@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio7</title>
+<style type="text/css">
+   body { background-color:#111; }
+   p { color:#fff;text-align: center;font-size:30px; }
+</style>
+ <script type="text/javascript">
+   alert("Digite 7 números um por vez e informaremos qual é o maior e qual é o menor(podendo também ser negativos).");
+    var num1 = Number(prompt("Primeiro número: "));
+    var num2 = Number(prompt("Segundo número: ")); 
+    var num3 = Number(prompt("Terceiro número: "));
+    var num4 = Number(prompt("Quarto número: "));  
+    var num5 = Number(prompt("Quinto número: "));
+    var num6 = Number(prompt("Sexto número: ")); 
+    var num7 = Number(prompt("Sétimo número: "));
+
+     var nums =[num1,num2,num3,num4,num5,num6,num7]
+    
+     var min = Math.max(...nums)
+     var max = Math.min(...nums)
+
+
+     alert(" esse foi o maior número que vc digitou: " + min );
+     alert(" esse foi o maior número que vc digitou: " + min );
+     alert(" esse foi o menor número que vc digitou: " + max );
+     alert(" esse foi o menor número que vc digitou: " + max );
+
+
+
+ </script>
+
+</head>
+ <body>
+  <p>Criar um algoritmo que leia a quantidade de números que se deseja digitar para que possa ser impresso o maior e o menor número digitados. 
+Não suponha que todos os números lidos serão positivos.</p>
+<hr>
+
+ </body>
+</html>
