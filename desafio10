@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desafio10</title>
+<style type="text/css">
+  body { background-color:#111; }
+  p { color:#fff;text-align: center;font-size:30px; }
+</style>
+  <script type="text/javascript">
+  alert("A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários estatuários.O valor máximo da prestação não poderá ultrapassar 30% do salário bruto.");
+  alert("Neste programa iremos precisar que você digite o salário e o valor da prestação, em seguida informaremos se o empréstimo pode ou não ser concedido.");
+    var salario = Number(prompt("Digite o salário: "));
+    var prest = Number(prompt("Digite o valor da prestação: "));
+  alert("verificando...");
+ 
+    var porce = salario * 30 / 100;
+
+   if(prest > porce){
+      alert("Empréstimo não foi liberado!!");
+      alert("Empréstimo não foi liberado!!");
+   }
+    else{
+       alert("Empréstimo foi liberado!!");
+       alert("Empréstimo foi liberado!!");
+   }
+
+
+   
+</script>
+</head>
+ <body>
+  <p>A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários estatutários. 
+O valor máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um algoritmo que permita entrar com o salário bruto e o valor da prestação e informar se o empréstimo pode ou não ser concedido
+</p>
+  <hr>
+ </body>
+</html>
+
