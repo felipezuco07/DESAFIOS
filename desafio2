@@ -3,23 +3,39 @@
 <head>
   <title>Desafio2</title>
 <style type="text/css">
-  body { background-color:#222; }
-  p { color:#277; }
-</style>
-</head>
- <body>
-  <p> Entrar com 5 números e imprimi-los em ordem decrescente (suponha números diferentes).</p>
+   body { background-color:#111; }
+   p { color:#fff;text-align: center;font-size:30px; }
+</style> 
 
   <script type="text/javascript">
-    var texto= "";
-    for(var i=5; i>0; i--)
-    {
-     texto += i + ",";
-     
-    }
-      alert(texto);
-    
+   alert("Digite 5 números um por vez e iremos exibi-los em ordem decrescente")
+ 
+    var num1 = Number(prompt("Digite o primeiro número e de ENTER: "));
+    var num2 = Number(prompt("Digite o segundo número e de ENTER: "));
+    var num3 = Number(prompt("Digite o terceiro número e de ENTER: "));
+    var num4 = Number(prompt("Digite o quarto número e de ENTER: "));
+    var num5 = Number(prompt("Digite o quinto número e de ENTER: "));
+ 
+    var Valores = [num5,num4,num3,num2,num1];
 
-</script>
+    alert("Colocando os valores em ordem decrescente...");
+   
+    function ordenaNum(a,b) {
+       return b - a;
+
+    }
+   
+     alert( Valores.sort(ordenaNum));
+     alert( Valores.sort(ordenaNum));
+     alert( Valores.sort(ordenaNum));
+     alert( Valores.sort(ordenaNum));
+     alert( Valores.sort(ordenaNum)); 
+   
+
+  </script>
+ </head>
+ <body>
+     <p>Entrar com 5 números e imprimi-los em ordem decrescente (suponha números diferentes).</p>
+      <hr>
  </body>
 </html>
