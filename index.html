@@ -3,17 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Array2</title>
+	<title>Problema1 Array</title>
 	<link rel="stylesheet" href="assets/css/style.css" />
 
   
 </head>
 <body>
 <div style="width: 1000px; margin: auto">
-	<h2>Crie um programa lendo dois Arrays (A e B) de 5 elementos cada, liste os elementos destes dois
-Arrays em um terceiro Array de 10 posições.</h4>
+	<h4> Problema: Ler a nota de 5 alunos, calcular a média e mostrar essa média, mostrar também quantos alunos
+ficaram com a sua nota acima da média. (usando Array)</h4>
     <br  />
-   
+    <br />
+
+    <h2>Neste programa iremos calcular a média das notas de 5 alunos e mostrar quais ficaram acima da média<h2> 
     <br />
 
     <button style="padding: 10px 20px;background: #dedede;border:0;cursor: pointer"
@@ -27,28 +29,37 @@ Arrays em um terceiro Array de 10 posições.</h4>
 
   <script>
     document.querySelector("#inicia").addEventListener("click", function(){
-        alert("aha")
-         
-         var a1 = [];
-         a1[0] = prompt("Digite o primeiro elemento: ")
-         a1[1] = prompt("Digite o segundo elemento: ")
-         a1[2] = prompt("Digite o terceiro elemento: ")
-         a1[3] = prompt("Digite o quarto elemento: ")
-         a1[4] = prompt("Digite o quinto elemento: ")
-         
-          alert("Agora o segundo array!!");
-
-         var a2 = [];
-         a2[0] = prompt("Digite o primeiro elemento: ")
-         a2[1] = prompt("Digite o segundo elemento: ")
-         a2[2] = prompt("Digite o terceiro elemento: ")
-         a2[3] = prompt("Digite o quarto elemento: ")
-         a2[4] = prompt("Digite o quinto elemento: ")
-
-	
+         alert("A média é 7!!");
+         var NOTA = []
 		
-		 var a3 = [a1.concat(a2)]
-         alert("a junção dos 5 elementos é: " + a1.concat(a2));
+		 NOTA[0] = Number(prompt("Digite a nota do primeiro aluno: ")) 
+		 NOTA[1] = Number(prompt("Digite a nota do segundo aluno: ")) 
+		 NOTA[2] = Number(prompt("Digite a nota do terceiro aluno: ")) 
+		 NOTA[3] = Number(prompt("Digite a nota do quarto aluno: ")) 
+		 NOTA[4] = Number(prompt("Digite a nota do quinto aluno: ")) 
+		
+		
+		
+		
+		
+      
+        var som = (NOTA[0] + NOTA[1] + NOTA[2] + NOTA[3] + NOTA[4])
+        	var divs = som / 5
+            var cont = 0; 
+     for(var i=0;i<NOTA.length; i++){
+         if(NOTA[i] >=7){
+          
+         cont = cont+1
+         }
+         else{
+        	alert("média final está abaixo da média")
+         }
+
+         alert("média": divs);
+         alert(cont + "alunos que tivream sua média maior que 7")
+    
+
+     }
 
     });
 
